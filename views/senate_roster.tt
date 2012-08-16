@@ -1,0 +1,20 @@
+<table class="bottom">
+				      <thead>
+				                    <tr>
+				                      <th>Name</th>
+									  <th>District</th>
+				                      <th>Phone</th>
+				                      <th>Email</th>
+				                    </tr>
+                  </thead>
+
+                  
+                  <tbody><tr>
+                  	<td><a href="/li/b2011_12/members/sen_abrams_steve_1/">Sen. Abrams</a></td>
+                  	<td>32</td>
+                  	<td>785-296-7381 </td>
+                  	<td><a href="mailto:Steve.Abrams@senate.ks.gov" class="external-link" target="_blank">Steve.Abrams@senate.ks.gov</a> </td>
+                  </tr>
+                  
+
+                  </tbody></table>

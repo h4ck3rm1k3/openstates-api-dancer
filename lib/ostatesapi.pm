@@ -3,40 +3,64 @@ use Dancer ':syntax';
 
 our $VERSION = '0.1';
 
-get '/' => sub {
-    template 'index';
+#/li/b2011_12/chamber/senate/roster/
+get '/li/:slug/chamber/:chamber/roster/' => sub {
+    # return "Why, hello there " 
+    # 	. params->{slug}
+    # . " Chamber:"
+    # 	. params->{chamber}
+    # . " Thanks"	;	
+    template 'senate_roster';
 };
 
-# http://www.kslegislature.org/li
-# http://www.kslegislature.org/li/api/v5/rev
-# http://www.kslegislature.org/li/b2011_12/chamber/house/roster/
-# http://www.kslegislature.org/li/b2011_12/chamber/senate/roster/
-# http://www.kslegislature.org/li/b2011_12/measures/hb2001
-# http://www.kslegislature.org/li/b2011_12/measures/odt_view/je_20110111144504_409553/
-# http://www.kslegislature.org/li/b2011_12/members/rep_arpke_tom_1/
-# http://www.kslegislature.org/li/b2011_12/members/sen_apple_pat_1/
-# http://www.kslegislature.org/li/b2011_12/year1/measures/hr6001
+get '/li/api/v5/rev-1/ctte/' => sub {
+#    template "ctte";
+    to_json ({
+	"content" => {
+	    "house_committees" =>  [
+		{
+		    "CHAMBER"=>"House",
+		    "KPID"=>"ctte_h_cal_print_1",
+		    "TITLE"=>"Calendar and Printing",
+		    "TYPE"=>"Standing",
+		},
+		{
+		    "CHAMBER"=>"House",
+		    "KPID"=>"ctte_h_int_coop_1",
+		    "TITLE"=>"Interstate Cooperation",
+		    "TYPE"=>"Standing"
+		}
+		
+		],
+	    
+	    
+	    "senate_committees" =>[
+		{
+		    "CHAMBER"=>"Senate",
+		    "KPID"=>"ctte_s_ed_1",
+		    "TITLE"=>"Education",
+		    "TYPE"=>"Standing"
+		},
+		]
+	},
+		"revno"=> 285137
+		
+	       }
+	);
+};
 
-get '/li/api/v5/rev' => sub {
-}
-
-get '/li/*/chamber/*/roster/' => sub {
-}
 
 get '/li/*/measures/*/odt_view/*/' => sub {
-}
+};
 
 get '/li/*/measures/*' => sub {
-}
+};
 
 get '/li/*/year1/measures/*' => sub {
-}
+};
 
 get 'li/*/members/*/' => sub {
-}
-
-
-
+};
 
 
 
@@ -53,6 +77,27 @@ get '/li' => sub {
 	});
 
 };
+
+
+# http://www.kslegislature.org/li
+# http://www.kslegislature.org/li/api/v5/rev
+# http://www.kslegislature.org/li/b2011_12/chamber/house/roster/
+# http://www.kslegislature.org/li/b2011_12/chamber/senate/roster/
+# http://www.kslegislature.org/li/b2011_12/measures/hb2001
+# http://www.kslegislature.org/li/b2011_12/measures/odt_view/je_20110111144504_409553/
+# http://www.kslegislature.org/li/b2011_12/members/rep_arpke_tom_1/
+# http://www.kslegislature.org/li/b2011_12/members/sen_apple_pat_1/
+# http://www.kslegislature.org/li/b2011_12/year1/measures/hr6001
+
+get '/li/api/v5/rev' => sub {
+    ""
+};
+
+
+get '/' => sub {
+    template 'index';
+};
+
 #original :	<li><a href="/li/b2011_12/measures/bills/senate/">Senate Bills</a></li> 
 #<li><a href="/li/b2011_12/measures/bills/house/">House Bills</a></li> 
 #<li><a href="/li/b2011_12/statute/">Statute</a></li> 
