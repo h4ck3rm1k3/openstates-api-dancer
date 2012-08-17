@@ -1,0 +1,60 @@
+{
+    "content": {
+        "APPOINTMENTS": [],
+        "CHAIR": [
+            {
+                "FULLNAME": "Arlen Siegfreid",
+                "KPID": "rep_siegfreid_arlen_1"
+            }
+        ],
+        "CHAMBER": "House",
+        "INCBILLS": [],
+        "INCRESOS": [
+            {
+                "BILLNO": "HCR5008",
+                "SHORTTITLE": "State constitutional amendment relating to the reapportionment of senatorial and representative districts."
+            }
+        ],
+        "KPID": "ctte_h_cal_print_1",
+        "MEMBERS": [
+            {
+                "FULLNAME": "Peggy Mast",
+                "KPID": "rep_mast_peggy_1"
+            },
+            {
+                "FULLNAME": "Jene Vickrey",
+                "KPID": "rep_vickrey_jene_1"
+            },
+            {
+                "FULLNAME": "Barbara Ballard",
+                "KPID": "rep_ballard_barbara_1"
+            }
+        ],
+        "MTGDAY": "On Call",
+        "MTGROOM": "On Call",
+        "MTGTIME": "On Call",
+        "RMMEM": [
+            {
+                "FULLNAME": "Paul Davis",
+                "KPID": "rep_davis_paul_1"
+            }
+        ],
+        "SBILLS": [
+            {
+                "BILLNO": "SB118",
+                "SHORTTITLE": "House Substitute for SB 118 by Committee on Calendar and Printing -- Legislative page compensation; remuneration of not less than $5 value."
+            }
+        ],
+        "SPONSORTITLE": "Committee on Calendar and Printing",
+        "SRESOS": [],
+        "TITLE": "Calendar and Printing",
+        "TYPE": "Standing",
+        "VICECHAIR": [
+            {
+                "FULLNAME": "Mike O'Neal",
+                "KPID": "rep_oneal_michael_1"
+            }
+        ]
+    },
+    "revno": 285141
+}

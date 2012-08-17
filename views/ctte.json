@@ -1,0 +1,731 @@
+{
+    "content": {
+        "house_committees": [
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_cal_print_1",
+                "TITLE": "Calendar and Printing",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_int_coop_1",
+                "TITLE": "Interstate Cooperation",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_trnsprt_1",
+                "TITLE": "Transportation",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_soc_srvcs_bdgt_1",
+                "TITLE": "Social Services Budget",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_ag_nat_res_bdgt_1",
+                "TITLE": "Agriculture and Natural Resources Budget",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_ag_nat_res_1",
+                "TITLE": "Agriculture and Natural Resources",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_child_lbr_1",
+                "TITLE": "Children and Families",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_cmrce_lbr_1",
+                "TITLE": "Commerce and Economic Development",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_corr_juv_jus_1",
+                "TITLE": "Corrections and Juvenile Justice",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_ed_bdgt_1",
+                "TITLE": "Education Budget",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_electns_1",
+                "TITLE": "Elections",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_engy_utls_1",
+                "TITLE": "Energy and Utilities",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_fed_st_1",
+                "TITLE": "Federal and State Affairs",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_gen_govt_bdgt_1",
+                "TITLE": "General Government Budget",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_jud_1",
+                "TITLE": "Judiciary",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_loc_govt_1",
+                "TITLE": "Local Government",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_pen_ben_1",
+                "TITLE": "Pensions and Benefits",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_tax_1",
+                "TITLE": "Taxation",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_vets_mltry_hmlnd_sec_1",
+                "TITLE": "Veterans, Military and Homeland Security",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_vision_2020_1",
+                "TITLE": "Vision 2020",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_rulz_jrnl_1",
+                "TITLE": "Rules and Journal",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_leg_bdgt_1",
+                "TITLE": "Legislative Budget (House)",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_ed_1",
+                "TITLE": "Education",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_redist_1",
+                "TITLE": "Redistricting",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_apprprtns_1",
+                "TITLE": "Appropriations",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_trnsprt_pub_safety_bdgt_1",
+                "TITLE": "Transportation and Public Safety Budget",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_aging_long_term_care_1",
+                "TITLE": "Aging and Long-term Care",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_hhs_1",
+                "TITLE": "Health and Human Services",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_fin_inst_1",
+                "TITLE": "Financial Institutions",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_ins_1",
+                "TITLE": "Insurance",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "House",
+                "KPID": "ctte_h_govt_effcncy_fisc_ovst_1",
+                "TITLE": "Government Efficiency",
+                "TYPE": "Standing"
+            }
+        ],
+        "senate_committees": [
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_ed_1",
+                "TITLE": "Education",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_fin_inst_ins_1",
+                "TITLE": "Financial Institutions and Insurance",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_loc_govt_1",
+                "TITLE": "Local Government",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_phw_1",
+                "TITLE": "Public Health and Welfare",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_fed_st_1",
+                "TITLE": "Federal and State Affairs",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_reapp_1",
+                "TITLE": "Reapportionment",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_org_cal_rulz_1",
+                "TITLE": "Organization, Calendar and Rules",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_assess_tax_1",
+                "TITLE": "Assessment and Taxation",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_cmrce_1",
+                "TITLE": "Commerce",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_ethics_electns_1",
+                "TITLE": "Ethics and Elections",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_jud_1",
+                "TITLE": "Judiciary",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_nat_res_1",
+                "TITLE": "Natural Resources",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_utils_1",
+                "TITLE": "Utilities",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_wam_1",
+                "TITLE": "Ways and Means",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_cnfrm_ovst_1",
+                "TITLE": "Confirmation Oversight",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_ag_1",
+                "TITLE": "Agriculture",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_kpers_slct_1",
+                "TITLE": "KPERS Select",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_aging_subcommittee_ways_and_means_1",
+                "TITLE": "Aging Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_agriculture_subcommittee_ways_and_means_1",
+                "TITLE": "Agriculture Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_capital_improvements_subcommittee_way_1",
+                "TITLE": "Capital Improvements Subcommittee, Way",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_commerce_subcommittee_ways_and_means_1",
+                "TITLE": "Commerce Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_commissions_subcommittee_1",
+                "TITLE": "Commissions Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_corrections_subcommittee_ways_and_means_1",
+                "TITLE": "Corrections Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_department_of_administration_subcommittee_ways_and_means_1",
+                "TITLE": "Department of Administration Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_department_of_labor_subcommittee_ways_and_means_1",
+                "TITLE": "Department of Labor Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_education_subcommittee_ways_and_means_1",
+                "TITLE": "Education Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_fee_boards_subcommittee_ways_and_means_1",
+                "TITLE": "Fee Boards Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_health_and_environment_subcommittee_ways_and_means_1",
+                "TITLE": "Health and Environment Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_higher_education_subcommittee_ways_and_means_1",
+                "TITLE": "Higher Education Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_jja_subcommittee_ways_and_means_1",
+                "TITLE": "JJA Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_judicial_subcommittee_ways_and_means_1",
+                "TITLE": "Judicial Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_kpers_subcommittee_ways_and_means_1",
+                "TITLE": "KPERS Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_legislative_and_elected_officals_subcommittee_ways_and_means_1",
+                "TITLE": "Legislative and Elected Officals Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_lottery_subcommittee_ways_and_means_1",
+                "TITLE": "Lottery Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_natural_resources_subcommittee_ways_and_means_1",
+                "TITLE": "Natural Resources Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_public_safety_subcommittee_ways_and_means_1",
+                "TITLE": "Public Safety Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_transportation_subcommittee_ways_and_means_1",
+                "TITLE": "Transportation Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_veterans_affairs_subcommittee_ways_and_means_1",
+                "TITLE": "Veterans' Affairs Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_intrst_coop_1",
+                "TITLE": "Interstate Cooperation",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_s_trnsprt_1",
+                "TITLE": "Transportation",
+                "TYPE": "Standing"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_off_budget_subcommittee_ways_and_means_1",
+                "TITLE": "Non Reportable Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            },
+            {
+                "CHAMBER": "Senate",
+                "KPID": "ctte_sub_hospitals_subcommittee_ways_and_means_1",
+                "TITLE": "Hospitals Subcommittee, Ways and Means",
+                "TYPE": "Subcommittee"
+            }
+        ],
+        "special_committees": [
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_dui_cmsn_1",
+                "TITLE": "DUI Commission",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_assess_tax_1",
+                "TITLE": "Special Committee on Assessment & Taxation",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_ed_1",
+                "TITLE": "Special Committee on Education",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_em_domn_cndmntn_wtr_1",
+                "TITLE": "Special Committee on Eminent Domain in Condemnation of Water Rights",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_ktec_1",
+                "TITLE": "Special Committee on Kansas Technology Enterprise Corporation",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_spc_special_committee_on_kan_ed_study_commission_1",
+                "TITLE": "Special Committee on KAN-ED Study Commission",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_utils_1",
+                "TITLE": "Special Committee on Utilities",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_trnsprt_1",
+                "TITLE": "Special Committee on Transportation",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_new_comp_trnsprt_plan_1",
+                "TITLE": "Special Committee on New Comprehensive Transportation Plan",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_nat_gas_stor_flds_fac_1",
+                "TITLE": "Special Committee on Natural Gas Storage Fields and Facilities",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_leg_strm_1",
+                "TITLE": "Special Committee on Legislative Streamlining",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_jud_1",
+                "TITLE": "Special Committee on Judiciary",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_gmng_ovst_1",
+                "TITLE": "Special Committee on Gaming Oversight",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_fin_inst_ins_1",
+                "TITLE": "Special Committee on Financial Institutions and Insurance",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_fed_st_1",
+                "TITLE": "Special Committee on Federal & State Affairs",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_engy_nat_res_envrn_1",
+                "TITLE": "Special Committee on Energy, Natural Resources & Environment",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_2011_capitol_preservation_committee_1",
+                "TITLE": "2011 Capitol Preservation Committee",
+                "TYPE": "Other"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_spc_special_committee_on_redistricting_1",
+                "TITLE": "Special Committee on Redistricting",
+                "TYPE": "Special"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_2011_redistricting_advisory_group_1",
+                "TITLE": "2011 Redistricting Advisory Group",
+                "TYPE": "Other"
+            },
+            {
+                "CHAMBER": "N/A",
+                "KPID": "ctte_recod_cmsn_1",
+                "TITLE": "Kansas Criminal Code Recodification Commission",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": "N/A",
+                "KPID": "ctte_recod_cmsn_subcmte1",
+                "TITLE": "Kansas Criminal Code Recodification Commission-Subcommittee",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": "N/A",
+                "KPID": "ctte_rural_plcy_1",
+                "TITLE": "Kansas Rural Policy",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": "N/A",
+                "KPID": "ctte_2010_cmsn_1",
+                "TITLE": "2010 Commission",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": "N/A",
+                "KPID": "ctte_cap_rest_cmsn_1",
+                "TITLE": "Capitol Restoration Commission",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_spc_ed_fnd_tf_1",
+                "TITLE": "Special Education Funding Task Force",
+                "TYPE": "Task Force"
+            },
+            {
+                "CHAMBER": "N/A",
+                "KPID": "ctte_2011_kansas_public_employees_retirement_study_commission_1",
+                "TITLE": "2011 Kansas Public Employees Retirement Study Commission",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": "N/A",
+                "KPID": "ctte_hcsf_1",
+                "TITLE": "Health Care Stabilization Fund",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_parole_brd_1",
+                "TITLE": "Joint Committee on Parole Board Oversight",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_rules_regs_1",
+                "TITLE": "Joint Committee on Administrative Rules and Regulations",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_arts_1",
+                "TITLE": "Joint Committee on Arts and Cultural Resources",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_cjjo_1",
+                "TITLE": "Joint Committee on Corrections and Juvenile Justice Oversight",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_eco_devo_1",
+                "TITLE": "Joint Committee on Economic Development",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_engy_envrn_plcy_1",
+                "TITLE": "Joint Committee on Energy and Environmental Policy",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_hpo_1",
+                "TITLE": "Joint Committee on Heath Policy Oversight",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_it_1",
+                "TITLE": "Joint Committee on Information Technology",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_ks_security_1",
+                "TITLE": "Joint Committee on Kansas Security",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_pensions_1",
+                "TITLE": "Joint Committee on Pensions, Investments, and Benefits",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_clms_agnst_1",
+                "TITLE": "Joint Committee on Special Claims Against the State",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_st_tribal_1",
+                "TITLE": "Joint Committee on State -Tribal Relations",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_leg_budget_1",
+                "TITLE": "Legislative Budget Committee",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_lcc_1",
+                "TITLE": "Legislative Coordinating Council",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_lepc_1",
+                "TITLE": "Legislative Educational Planning Committee",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_lpa_1",
+                "TITLE": "Legislative Post Audit Committee",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_bldg_constr_1",
+                "TITLE": "Joint Committee on State Building Construction",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_emp_pay_plan_ovst_1",
+                "TITLE": "State Employee Pay Plan Oversight",
+                "TYPE": "Commission"
+            },
+            {
+                "CHAMBER": null,
+                "KPID": "ctte_jt_childrens_issues_1",
+                "TITLE": "Joint Committee on Children's Issues",
+                "TYPE": "Joint"
+            },
+            {
+                "CHAMBER": "Both",
+                "KPID": "ctte_jt_hcbs_1",
+                "TITLE": "Joint Committee on Home and Community Based Services",
+                "TYPE": "Joint"
+            }
+        ]
+    },
+    "revno": 285141
+}
