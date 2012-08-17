@@ -203,7 +203,7 @@ get '/li/api/v5/rev-1/bill_status/' => sub {
 	    }
 	    ]
 	     })
-}
+};
 
 get '/li/api/v5/rev-1/ctte/' => sub {
 #    template "ctte";
