@@ -3,6 +3,25 @@ use Dancer ':syntax';
 
 our $VERSION = '0.1';
 
+#http://www.kslegislature.org/li/api/v5/rev-1/ctte/ctte_h_int_coop_1/
+get '/li/api/v5/rev-1/ctte/:schedule/' => sub {
+#    template "ctte";
+    to_json ({
+	
+	"content" => [
+	    {
+		"CHAIR" =>  [
+		    {
+			"FULLNAME"=> "First Last",
+			"KPID" => "rep_first_last_1"
+		    }
+		    ],
+	    }
+	    ] 
+		
+	     });
+};
+
 #/li/b2011_12/chamber/senate/roster/
 get '/li/:slug/chamber/:chamber/roster/' => sub {
     # return "Why, hello there " 
@@ -12,6 +31,8 @@ get '/li/:slug/chamber/:chamber/roster/' => sub {
     # . " Thanks"	;	
     template 'senate_roster';
 };
+
+#
 
 get '/li/api/v5/rev-1/bill_status/' => sub {
     to_json ({
@@ -205,6 +226,7 @@ get '/li/api/v5/rev-1/bill_status/' => sub {
 	     })
 };
 
+
 get '/li/api/v5/rev-1/ctte/' => sub {
 #    template "ctte";
     to_json ({
@@ -245,7 +267,12 @@ get '/li/api/v5/rev-1/ctte/' => sub {
 get '/li/*/measures/*/odt_view/*/' => sub {
 };
 
-get '/li/*/measures/*' => sub {
+
+#www1.kslegislature.org/li/b2011_12/measures/hb2175/
+get '/li/:slug/measures/:bill/' => sub {
+    # 	. params->{slug}
+    # 	. params->{chamber}
+    template 'bill_details';    
 };
 
 get '/li/*/year1/measures/*' => sub {
