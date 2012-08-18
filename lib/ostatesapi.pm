@@ -226,47 +226,58 @@ get '/li/api/v5/rev-1/bill_status/' => sub {
 
 get '/li/api/v5/rev-1/ctte/' => sub {
 #    template "ctte";
-    to_json ({
-	"content" => {
-	    "house_committees" =>  [
-		{
-		    "CHAMBER"=>"House",
-		    "KPID"=>"ctte_h_cal_print_1",
-		    "TITLE"=>"Calendar and Printing",
-		    "TYPE"=>"Standing",
-		},
-		{
-		    "CHAMBER"=>"House",
-		    "KPID"=>"ctte_h_int_coop_1",
-		    "TITLE"=>"Interstate Cooperation",
-		    "TYPE"=>"Standing"
-		}
+    to_json (
+	{
+	    "content" => {
+		"house_committees" =>  [
+		    {
+			"CHAMBER"=>"House",
+			"KPID"=>"ctte_h_cal_print_1",
+			"TITLE"=>"Calendar and Printing",
+			"TYPE"=>"Standing",
+		    },
+		    {
+			"CHAMBER"=>"House",
+			"KPID"=>"ctte_h_int_coop_1",
+			"TITLE"=>"Interstate Cooperation",
+			"TYPE"=>"Standing"
+		    }
+		    
+		    ],	  
+	    
+		"special_committees" =>  [
+		    {
+			"CHAMBER"=>"Special",
+			"KPID"=>"ctte_h_cal_print_1",
+			"TITLE"=>"Special K",
+			"TYPE"=>"Sitting",
+		    },
+		    ],
 		
-		],
-	    
-	    
-	    "senate_committees" =>[
-		{
-		    "CHAMBER"=>"Senate",
+		"senate_committees" =>[
+		    {
+			"CHAMBER"=>"Senate",
 		    "KPID"=>"ctte_s_ed_1",
-		    "TITLE"=>"Education",
+			"TITLE"=>"Education",
 		    "TYPE"=>"Standing"
-		},
-		]
-	},
-		"revno"=> 285137
-		
-	       }
+		    },
+		    ]
+	    },
+		    "revno"=> 285137
+		    
+	}
 	);
 };
 
 
-get '/li/*/measures/*/odt_view/*/' => sub {
+get '/li/:slug/measures/odt_view/:docid/' => sub {
+#    http://www.kslegislature.org/li/b2011_12/measures/odt_view/je_20120519120712_288463/
+    return send_file("/docs/example.odt");
 };
 
 
 #www1.kslegislature.org/li/b2011_12/measures/hb2175/
-get '/li/:slug/measures/:bill/' => sub {
+get '/li/:slug/measures/:bill/?' => sub {
     # 	. params->{slug}
     # 	. params->{chamber}
     template 'bill_details';    
