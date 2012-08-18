@@ -8,17 +8,14 @@ get '/li/api/v5/rev-1/ctte/:schedule/' => sub {
 #    template "ctte";
     to_json ({
 	
-	"content" => [
+	"content" => 
 	    {
-		"CHAIR" =>  [
-		    {
-			"FULLNAME"=> "First Last",
-			"KPID" => "rep_first_last_1"
-		    }
-		    ],
+		"CHAIR"     => [ { "FULLNAME" => "First Last",	"KPID" => "rep_first_last_1"     }        ],
+		"VICECHAIR" => [ { "FULLNAME" => "first last2", "KPID" => "first_last_2"         }        ],
+		"RMMEM"     => [ { "FULLNAME" => "first last3",  "KPID" => "first_last_3"        }        ],
+		"MEMBERS"     => [ { "FULLNAME" => "first last4",  "KPID" => "first_last_4"        }        ]
 	    }
-	    ] 
-		
+	
 	     });
 };
 
