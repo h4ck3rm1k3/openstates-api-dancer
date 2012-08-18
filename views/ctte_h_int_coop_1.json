@@ -1,0 +1,54 @@
+{
+    "content": {
+        "APPOINTMENTS": [],
+        "CHAIR": [
+            {
+                "FULLNAME": "Mike O'Neal",
+                "KPID": "rep_oneal_michael_1"
+            }
+        ],
+        "CHAMBER": "House",
+        "INCBILLS": [],
+        "INCRESOS": [],
+        "KPID": "ctte_h_int_coop_1",
+        "MEMBERS": [
+            {
+                "FULLNAME": "Peggy Mast",
+                "KPID": "rep_mast_peggy_1"
+            },
+            {
+                "FULLNAME": "Willie Prescott",
+                "KPID": "rep_prescott_willie_1"
+            },
+            {
+                "FULLNAME": "Arlen Siegfreid",
+                "KPID": "rep_siegfreid_arlen_1"
+            },
+            {
+                "FULLNAME": "Annie Tietze",
+                "KPID": "rep_tietze_annie_1"
+            }
+        ],
+        "MTGDAY": "On Call",
+        "MTGROOM": "On Call",
+        "MTGTIME": "On Call",
+        "RMMEM": [
+            {
+                "FULLNAME": "Eber Phelps",
+                "KPID": "rep_phelps_eber_1"
+            }
+        ],
+        "SBILLS": [],
+        "SPONSORTITLE": "Committee on Interstate Cooperation",
+        "SRESOS": [],
+        "TITLE": "Interstate Cooperation",
+        "TYPE": "Standing",
+        "VICECHAIR": [
+            {
+                "FULLNAME": "Jene Vickrey",
+                "KPID": "rep_vickrey_jene_1"
+            }
+        ]
+    },
+    "revno": 285154
+}

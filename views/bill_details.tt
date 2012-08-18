@@ -1,0 +1,1532 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <link rel="apple-touch-icon" href="/li/m/images/startup.png"/> 
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/li/m/images/favicon.ico"/> 
+  <title>HB 2175 | Bills and Resolutions | Kansas State Legislature</title> 
+ 
+ 
+  
+	<link rel="stylesheet" type="text/css" href="/li/m/css/core.css?r=38860" media="screen" /> 
+	<link rel="stylesheet" type="text/css" href="/li/m/css/slider.css?r=24319" media="screen" /> 
+	<!--[if IE 7]><link rel="stylesheet" href="/li/m/css/ie7.css?r=26952" type="text/css"><![endif]--> 
+	<!--[if IE 8]><link rel="stylesheet" href="/li/m/css/ie8.css?r=26951" type="text/css"><![endif]--> 
+	<link rel="stylesheet" type="text/css" href="/li/m/css/print.css?r=24319" media="print" /> 
+	<link rel="alternate stylesheet" type="text/css" href="/li/m/css/largestyle.css?r=24319" title="largetext" /> 
+	<link rel="stylesheet" href="/li/m/css/prettyPhoto.css?r=23369" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" /> 
+  
+ 
+  
+ 
+  
+  <script type="text/javascript" src="/li/m/js/lib/jquery.min.js?r=24319" charset="utf-8"></script> 
+  <script type="text/javascript" src="/li/m/js/lib/date.js?r=23369" charset="utf-8"></script> 
+  <script type="text/javascript" src="/li/m/js/lib/jquery.hotkeys.js?r=23369" charset="utf-8"></script> 
+  <script type="text/javascript" src="/li/m/js/core.js?r=29717" charset="utf-8"></script> 
+  <script type="text/javascript" src="/li/m/js/lib/jquery.prettyPhoto.js?r=24319" charset="utf-8"></script> 
+  <script type="text/javascript" src="/li/m/js/lib/styleswitcher.js?r=24319" charset="utf-8"></script> 
+  <script type="text/javascript" src="/li/m/js/lib/slider.js?r=24319" charset="utf-8"></script> 
+  <!--[if IE ]><script type="text/javascript" src="/li/m/js/ie.js?r=23369" charset="utf-8"></script><![endif]--> 
+ 
+  <script type="text/javascript"> 
+      /* <![CDATA[*/
+      var MEDIA_URL = "/li/m/";
+ 
+      $(document).ready(function(){
+      	  $("a[rel^='prettyPhoto']").prettyPhoto()
+ 
+          $(".portlet").addClass("ui-widget ui-widget-content ui-helper-clearfix ui-corner-all").find(".portlet-header").addClass("ui-widget-header ui-corner-all").prepend('<span class="ui-icon ui-icon-minusthick"></span>');
+ 
+		  $("#bsearch .ui-icon").toggleClass("ui-icon-plusthick");
+ 
+          $(".portlet-header").click(function() {
+              $(this).find(".ui-icon").toggleClass("ui-icon-plusthick");
+              $(this).parents(".portlet:first").find(".portlet-content").toggle();
+          });
+ 
+         $(".showAllBills").hide().click(function(){
+             $(this).parent().parent().find("ul > li.bill").slideDown();
+             $(this).fadeOut();
+         });
+         $(".hideBill").click(function(e){
+             $(this).closest("li").slideUp();
+             $(".showAllBills").fadeIn();
+         });
+ 
+         update_chamber_status("/li/b2011_12/api/v6/rev-1/chamber_status/");
+      });
+ 
+	function clearText(thefield){
+		if (thefield.defaultValue==thefield.value)
+			thefield.value = ""
+	}
+ 
+    function legislator_search()
+    {
+    	$("#legislator_search").hide()
+		var chamber_value ="";
+ 
+		if($("#id_chamber_senate").is(':checked') && $("#id_chamber_house").is(':checked')) {
+			chamber_value="both";
+		} else if($("#id_chamber_senate").is(':checked')) {
+			chamber_value="senate";
+		} else if($("#id_chamber_house").is(':checked')) {
+			chamber_value="house";
+		}
+ 
+    	var chamber_field="<input name='chamber' id='id_chamber' value='" +chamber_value+ "'/>";
+    	$("#id_chamber_senate").before(chamber_field);
+ 
+		if($("#id_party_democrat").is(':checked') && $("#id_party_republican").is(':checked')) {
+			party_affiliation_value="";
+		} else if($("#id_party_democrat").is(':checked')) {
+			party_affiliation_value="democrat";
+		} else if($("#id_party_republican").is(':checked')) {
+			party_affiliation_value="republican";
+		}
+ 
+    	var party_affiliation_field="<input name='party_affiliation' id='id_party_affiliation' value='"+ party_affiliation_value +"'/>";
+    	$("#id_chamber_senate").before(party_affiliation_field);
+ 
+ 
+    	$("#id_chamber_senate").remove();
+    	$("#id_chamber_house").remove();
+ 
+    	$("#id_party_democrat").remove();
+    	$("#id_party_republican").remove();
+ 
+    	if ($("#id_first_name").attr('value')=="First Name") {
+    		$("#id_first_name").remove();
+    	}
+    	if ($("#id_last_name").attr('value')=="Last Name") {
+    		$("#id_last_name").remove();
+    	}
+ 
+    }
+    /* ]]> */
+    </script> 
+  
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/li/data/feeds/rss/hb2175/bill_status.xml"> 
+ 
+  
+ 
+  
+  
+ 
+  
+  
+  <script type="text/javascript"> 
+        /* <![CDATA[*/
+    	var _gaq = _gaq || [];
+    	_gaq.push(['_setAccount', 'UA-20643350-3']);
+    	_gaq.push(['_trackPageview']);
+ 
+    	(function() {
+      		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    	})();
+        /* ]]> */
+  </script> 
+  
+  
+ 
+ 
+ 
+ 
+</head> 
+ 
+<body class=""> 
+ 
+<div id="container"><!-- start container --> 
+ 
+ 
+<div id="header"><!-- start header --> 
+ 
+		<div id="logo"><a href="/li/"><img src="/li/m/images/kansas_legislature.png" alt="Kansas State Legislature" height="71" width="243"/></a></div> 
+ 
+		<div id="persistent"> 
+		<!-- start sub navigation wrapper--> 
+			<ul id="subnavigation"> 
+			<!-- start sub navigation--> 
+ 
+			<li class="topmenu" ><a href="/li/">Home &#8226;</a></li> 
+ 
+			<li class="topmenu"><a href="/li/current/">News &#8226;</a></li> 
+ 
+			<li class="topmenu"><a href="http://skyways.lib.ks.us/government/las/index.html">Contact &#8226;</a></li> 
+ 
+			<li class="toproot"><a href = "/li/">A/V Live <img src="/li/m/images/av_live_btn_off.png" alt="A/V Live"/></a> 
+			<div class="submenu"> 
+				<ul> 
+					<li><a href="http://yp.accesskansas.org:8000/kshouse.mp3.m3u">House Proceedings Audio Feed</a></li> 
+					<li><a href="http://yp.accesskansas.org:8000/kssenate.mp3.m3u">Senate Proceedings Audio Feed</a></li> 
+				</ul> 
+			</div> 
+			</li> 
+ 
+ 
+        </ul> 
+ 
+        <!-- end subnavigation ul--> 
+ 
+        
+        
+        <div id="site-search"> 
+        <form method="get" target="_blank" action="http://www.google.com/search" id="global-search"> 
+          <input type="hidden" name="sitesearch" value="kslegislature.org"/> 
+          <input id="site-search-value" type="text" name="q" title="Search the site" value="Search the site" onfocus="clearText(this)"/> 
+          <input id="site-search-button" type="image" name="submit" src="/li/m/images/search_btn.png"/> 
+        </form> 
+        </div> 
+		
+ 
+        </div> 
+        <!-- end subnavigation wrapper--> 
+ 
+ 
+		<div id="nav"><!-- start mainnavigation --> 
+				<ul > 
+				<li ><a href="/li/b2011_12/chamber/house/">House</a> 
+					
+											<ul> 
+					<li><a href="/li/b2011_12/chamber/house/leadership/">Leadership</a></li> 
+					<!-- <li><a href="#">Roster</a></li> --> 
+					<li><a href="/li/b2011_12/committees/standing/house/">Committees</a></li> 
+					<!-- <li><a href="#">Assignments</a></li> --> 
+					<li><a href="http://www.kansas.gov/government/legislative/">Archives</a></li> 
+					<li><a href="/li/b2011_12/chamber/house/rules/">Rules</a></li> 
+					<li><a href="/li/events/house/">Current Happenings</a></li> 
+					<li><a href="/li/b2011_12/chamber/house/seating/">Seating Chart</a></li> 
+					<li><a href="/li/b2011_12/chamber/house/roster/">Roster</a></li> 
+					</ul> 
+					
+				</li> 
+ 
+				<li ><a href="/li/b2011_12/chamber/senate/">Senate</a> 
+					
+											<ul> 
+					<li><a href="/li/b2011_12/chamber/senate/leadership/">Leadership</a></li> 
+					<!-- <li><a href="#">Roster</a></li> --> 
+					<li><a href="/li/b2011_12/committees/standing/senate/">Committees</a></li> 
+					<!-- <li><a href="#">Assignments</a></li> --> 
+					<li><a href="/li/b2011_12/appointments/">Appointments</a></li> 
+					<li><a href="http://www.kansas.gov/government/legislative/">Archives</a></li> 
+					<li><a href="/li/b2011_12/chamber/senate/rules/">Rules</a></li> 
+					<li><a href="/li/events/senate/">Current Happenings</a></li> 
+					<li><a href="/li/b2011_12/chamber/senate/seating/">Seating Chart</a></li> 
+					<li><a href="/li/b2011_12/chamber/senate/roster/">Roster</a></li> 
+					</ul> 
+					
+				</li> 
+ 
+				<li><a href="/li/b2011_12/members/">Legislators</a> 
+				    
+											<ul> 
+					<li><a href="http://www.ipsr.ku.edu/ksdata/vote/">Find your Legislator (by map)</a></li> 
+					<li><a href="/li/b2011_12/chamber/house/leadership/">House Leadership</a></li> 
+					<li><a href="/li/b2011_12/chamber/house/roster/">House Roster</a></li> 
+					<li><a href="/li/b2011_12/chamber/senate/leadership/">Senate Leadership</a></li> 
+					<li><a href="/li/b2011_12/chamber/senate/roster/">Senate Roster</a></li>					
+					<li><a href="/li/b2011_12/committees/">Committees</a></li> 
+					</ul> 
+					
+				</li> 
+ 
+				<li><a href="/li/b2011_12/committees/">Committees</a> 
+					
+											<ul> 
+					<li><a href="/li/b2011_12/committees/standing/">Standing</a></li> 
+					<li><a href="/li/b2011_12/committees/non_standing/#Joint">Joint</a></li> 
+					<li><a href="/li/b2011_12/committees/non_standing/#Special">Special</a></li> 
+					<li><a href="/li/b2011_12/committees/non_standing/#Commission">Commission</a></li> 
+					<li><a href="/li/b2011_12/committees/non_standing/#Task Force">Task Force</a></li> 
+					<li><a href="/li/b2011_12/committees/conference/">Conference</a></li> 
+					<li><a href="/li/b2011_12/committees/resources/">Resources</a></li> 
+					</ul> 
+					
+				</li> 
+ 
+				<li class="current" ><a href="/li/b2011_12/year2/measures/bills/">Bills &amp; Laws</a> 
+					
+											<ul> 
+					<li><a href="/li/b2011_12/measures/bills/senate/">Senate Bills</a></li> 
+					<li><a href="/li/b2011_12/measures/bills/house/">House Bills</a></li> 
+					<li><a href="/li/b2011_12/statute/">Statute</a></li> 
+ 
+                    <li><a href="/li/b2011_12/measures/reports/">Reports</a></li> 
+ 
+					<li><a href="/li/m/pdf/how_bill_law.pdf">How a bill becomes law (pdf)</a></li> 
+					<li><a href="http://www.kslib.info/constitution/index.html">Kansas Constitution</a></li> 
+					</ul> 
+					
+				</li> 
+ 
+				<li><a href="/li/b2011_12/chamber/journals/">Journals</a> 
+					
+											<ul> 
+					<li><a href="/li/b2011_12/chamber/house/journals/2012/8/">House Journal</a></li> 
+					<li><a href="/li/b2011_12/chamber/senate/journals/2012/8/">Senate Journal</a></li> 
+					<li><a href="/li/journal/">What is a Journal?</a></li> 
+					</ul> 
+ 
+					
+				</li> 
+ 
+				<li><a href="/li/b2011_12/chamber/calendars/">Calendars</a> 
+					
+											<ul> 
+					<li><a href="/li/b2011_12/chamber/house/calendar/2012/8/">House Calendar</a></li> 
+					<li><a href="/li/b2011_12/chamber/senate/calendar/2012/8/">Senate Calendar</a></li> 
+					</ul> 
+					
+				</li> 
+ 
+				<li ><a href="/li/research/">Research</a> 
+					
+											<ul> 
+					<li><a href="/li/research/reports/">Reports/Publications</a></li> 
+					<li><a href="/li/research/appropriations/">Appropriations</a></li> 
+					<li><a href="/li/research/revenue/">Revenue/Taxation</a></li> 
+					<li><a href="/li/research/capitol/">Capitol Issues</a></li> 
+					<li><a href="http://redistricting.ks.gov/">Redistricting</a></li> 
+					<li><a href="/li/research/contact/">Contact Information</a></li> 
+					</ul> 
+					
+				</li> 
+ 
+				<li ><a href="/li/historical/">Historical</a> 
+									
+															<ul> 
+					<li><a href="/li/historical/">Historic Committee Data</a></li> 
+					<li><a href="http://www.kansas.gov/government/legislative/">Legislative Archive</a></li> 
+					</ul> 
+ 
+									
+				</li> 
+ 
+			</ul> 
+		</div><!-- end mainnavigation --> 
+ 
+    </div> 
+  <!-- end header --> 
+ 
+  
+ 
+  
+  <!-- start wrapper --> 
+  <div id="wrapper"> 
+ 
+	<div id="left_nav"><!-- start left nav --> 
+ 
+	
+	<div id="left_nav2"><!-- start left nav 2--> 
+		
+	<h1>Bills &amp; Laws</h1> 
+						<ul> 
+					<li><a href="/li/b2011_12/measures/bills/senate/">Senate Bills</a></li> 
+					<li><a href="/li/b2011_12/measures/bills/house/">House Bills</a></li> 
+					<li><a href="/li/b2011_12/statute/">Statute</a></li> 
+ 
+                    <li><a href="/li/b2011_12/measures/reports/">Reports</a></li> 
+ 
+					<li><a href="/li/m/pdf/how_bill_law.pdf">How a bill becomes law (pdf)</a></li> 
+					<li><a href="http://www.kslib.info/constitution/index.html">Kansas Constitution</a></li> 
+					</ul> 
+ 
+	</div><!-- end left nav 2--> 
+	
+    
+ 	<div class="portlet"> 
+		<div class="portlet-header" style="background-color:#1464a5;">Bill Search</div> 
+			<div id="bsearch" class="portlet-content" style="display:none;"> 
+			    <form method="get" target="_blank" action="http://www.google.com/search" id="bill-search" onsubmit="return add_inurl('bill');"> 
+                    <div class="search_box"><input type="text" style="display:inline" id="bill-search-value" value="Bill#, Word or Phrase" size="17" onfocus="clearText(this)"/> </div> 
+                    <input id="search_submit" type="submit" value="Search" /> 
+                    <input type="hidden" name="sitesearch" value="kslegislature.org/" /> 
+                    <input type="hidden" name="q" id="bill-submit-hidden" /> 
+                    <input type="hidden" id="bill-inurl" value="/measures/" /> 
+                </form> 
+			</div> <!-- end bill search --> 
+	 </div> <!-- end portlet --> 
+    
+	 <div class="portlet"> 
+		<div class="portlet-header" style="background-color:#1464a5;">Find Your Legislator</div> 
+			<div id="legislator_search" class="portlet-content" style="display:none;"> 
+				<form id="leg_search_form" name="leg_search_form" method="get" action="/li/b2011_12/members/" onsubmit="legislator_search()"> 
+				<input name="first_name" id="id_base_first_name" value="First Name" size="20" onfocus="clearText(this)"/> 
+				<p> 
+				<input name="last_name" id="id_base_last_name" value="Last Name" size="20" onfocus="clearText(this)"/> 
+				</p> 
+				<p>Chamber:</p> 
+				<p> 
+ 
+				<input name="chamber_senate" id="id_base_chamber_senate" value="senate"   checked="checked" type="checkbox"/> 
+				<label for="id_base_chamber_senate">Senate</label> 
+				<input name="chamber_house" id="id_base_chamber_house" value="house"   checked="checked" type="checkbox"/> 
+				<label for="id_base_chamber_house">House</label> 
+				</p> 
+				<p>Party:</p> 
+ 
+				<p> 
+				<input name="party_democrat" id="id_party_democrat" value="democrat"  checked="checked" type="checkbox"/> 
+				<label for="id_party_democrat">Democrat</label> 
+				<input name="party_republican" id="id_party_republican" value="republican"  checked="checked" type="checkbox"/> 
+				<label for="id_party_republican">Republican</label> 
+				</p> 
+					<p> 
+				<input type="submit" value="Find Legislator..."/> 
+				</p> 
+				</form> 
+			</div><!-- end legislator search --> 
+		</div><!-- end portlet --> 
+				<div class="portlet"> 
+		<div class="portlet-header" style="background-color:#1464a5;">Legislative Deadlines</div> 
+			<div id="legislative_deadlines" class="portlet-content" style="display:none;"> 
+    	        <a href="/li/m/pdf/2012_senate_deadlines_calendar.pdf">Senate Deadlines</a> (PDF)<br/> 
+    	        <a href="/li/m/pdf/2012_house_deadlines_calendar.pdf">House Deadlines</a> (PDF)
+			</div><!-- end legislator search --> 
+		</div><!-- end portlet --> 
+	<ul> 
+	    <li><a href="/li/current/">Legislative News</a></li> 
+		<li><a href="/li/b2011_12/statute/">Statute</a></li> 
+	</ul> 
+ 
+	
+	<!-- start left nav 3--> 
+	<div id="left_nav3"> 
+	<h1>Legislative Resources<img src="/li/m//images/external.png"  alt="External Links"></img></h1> 
+	<ul> 
+	    <li><a href="http://skyways.lib.ks.us/government/las/index.html">Legislative Administrative Services</a></li> 
+		<li><a href="http://skyways.lib.ks.us/ksleg/KLRD/klrd.html">Legislative Research Department</a></li> 
+		<li><a href="http://www.kslpa.org/">Division of Post Audit</a></li>		
+		<li><a href="http://www.ksrevisor.org/">Revisor of Statutes</a></li> 
+		<li><a href="/li/m/pdf/2011policies.pdf">Legislative Coordinating Council Policies</a></li> 
+	</ul> 
+	<h1>Other State Resources<img src="/li/m//images/external.png"  alt="External Links"></img></h1> 
+	<ul> 
+		<li><a href="http://www.kansas.gov/">Kansas.gov</a></li> 
+		<li><a href="http://www.kssos.org/">Secretary of State</a></li> 
+	    <li><a href="http://www.kansas.gov/ethics/">Ethics Commission</a></li>	
+	</ul> 
+	</div> 
+	<!-- end left nav 3--> 
+	
+ 
+	</div><!-- end left nav --> 
+ 
+	
+	<!-- start main content --> 
+		<div id="main_content"> 
+ 
+			<div id="news"><!-- start news --> 
+			<span class="news_text">Aug. 17, 2012</span> 
+			<!--<span class="news_text">latest news: <a href="news.html">5 x scrolling news items</a></span>--> 
+			<div class="right"> 
+			<!-- <span class="date">Aug. 17, 2012 &#8226; </span> --> 
+			<span class="icons"> 
+    <a class="rss_link" href="/li/data/feeds/rss/hb2175/bill_status.xml"><img src="/li/m/images/rss.png" alt="RSS Feed"></img></a> 
+</span> 
+			<span class="icons"> 
+	<a href="/li/b2011_12/measures/hb2175/"><img src="/li/m/images/purl.png" alt="Permanent URL"></img></a> 
+</span> 
+			<span class="norm"><a href="#" onclick="setActiveStyleSheet('standard'); return false;">-A</a></span> 
+			<span class="large"><a href="#" onclick="setActiveStyleSheet('largetext'); return false;">+A</a></span> 
+			<!-- <span class="controls"<a href="#"><img src="../images/size_print_mail.png"></img></a></span> --> 
+			</div><!-- end right --> 
+ 
+			</div><!-- end news --> 
+ 
+		    <div id="status"> 
+			<div class="left"> 
+			<b>House Status:</b> <a href="/li/events/house/" class="house_status_message">Adjourned until Monday, 14 January 2013 at 02:00 p.m.</a></br> 
+			<b>Senate Status:</b> <a href="/li/events/senate/" class="senate_status_message">Adjourned until Monday, 14 January 2013 at 02:00 p.m.</a> 
+			</div><!-- end left --> 
+			<!-- <div class="right"><a href="#">current HB</a> </br> <a href="#">current SB</a> --> 
+			<!-- </div>  --><!-- end right --> 
+			</div> <!-- end status --> 
+			
+ 
+ 
+ 
+ 
+ 
+			
+			<!-- begin breadcrumbs --> 
+			<div id="breadcrumbs"> 
+				<ul> 
+				<li>you are here:</li> 
+				<li><a href="/li/">Home</a> &raquo;</li> 
+				
+  
+  
+  <li><a href="/li/b2011_12/measures/bills/">Bills and Resolutions</a> &raquo;</li> 
+    
+ 
+  <li>HB2175</li> 
+ 
+				</ul> 
+			</div> 
+			
+ 
+		<!--<h1>Legislators</h1>--> 
+ 
+	  
+      <!--start main left content if using sidebar--> 
+      <div id="main"> 
+        
+	         <h1>HB 2175</h1> 
+ 
+        
+        <div class="container"> 
+          
+            <h3>Short Title</h3> 
+            <p class="truncated_text">Kansas one map act; geographic information systems and services, policy board and officer.</p> 
+          
+          
+           <p><a href="/li/b2011_12/measures/documents/summary_hb_2175_2012.pdf">Summary of Legislation</a></p> 
+          
+          
+        </div> 
+		
+		<!-- start bill versions table --> 
+		
+		
+		
+            
+            <div> 
+ 
+		        <h3 class="bill_history_header">Bill Versions</h3> 
+		    </div> 
+            <div class="tabs"> 
+              
+				  
+				  <!-- new legend ds --> 
+				  <span class="bill_history_legend "> 
+ 				  
+				  <b>SN:</b> Supplemental Note 
+				  
+				  
+				  <b>FN:</b> Fiscal Note
+					
+					
+				  </span> 
+				  
+ 
+              <div class="module"> 
+                <table class="bottom"> 
+                  <thead> 
+                    <tr> 
+                      <th>Version</th> 
+					  <th>Documents</th> 
+                      
+                      <th title="Supplemental Note">SN</th> 
+                      
+                      
+                      
+                      <th title="Fiscal Note">FN</th> 
+                      
+                      
+                    </tr> 
+                  </thead> 
+                
+                  <tbody class="tab-content-sub" id="version-tab-1"> 
+                    
+                    <tr> 
+                      <td style="font-weight: bold" >Enrolled - Law effective June 07, 2012</td> 
+                      <td class="doc_icons"> 
+                      
+                      
+                      
+                      
+                      
+                      <a class="pdf" href="/li/b2011_12/measures/documents/hb2175_enrolled.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                      
+                      </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+                      
+                    </tr> 
+                    
+                    <tr> 
+                      <td>As Amended by Senate Committee</td> 
+                      <td class="doc_icons"> 
+                      
+                      
+                      
+                      
+                      
+                      <a class="pdf" href="/li/b2011_12/measures/documents/hb2175_01_0000.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                      
+                      </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                      <a class="pdf" href="/li/b2011_12/measures/documents/supp_note_hb2175_01_0000.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+                      
+                    </tr> 
+                    
+                    <tr> 
+                      <td>As introduced</td> 
+                      <td class="doc_icons"> 
+                      
+                      
+                      
+                      
+                      
+                      <a class="pdf" href="/li/b2011_12/measures/documents/hb2175_00_0000.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                      
+                      </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                      <a class="pdf" href="/li/b2011_12/measures/documents/supp_note_hb2175_00_0000.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      <a class="pdf" href="/li/b2011_12/measures/documents/fisc_note_hb2175_00_0000.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /> </a> 
+                      
+                      </td> 
+                      
+                      
+                    </tr> 
+                    
+                  </tbody> 
+                
+                </table> 
+              </div> 
+            </div> 
+            
+          
+          
+ 
+		<!-- end bill versions table--> 
+ 
+ 
+      </div> 
+      <!-- end main left content if using sidebar--> 
+ 
+        
+        <!-- start sidebar if using main left content --> 
+        <div id="sidebar"> 
+          
+    
+      
+          
+           <!--  <h3>Current Sponsor</h3> --> 
+				<!-- <div class="portlet ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"> --> 
+				<div class="portlet"> 
+				<div class="portlet-header" style="background-color: #d2d2d2; color: #134f6c; font-weight: bold;">Current Sponsor</div> 
+				<div class="portlet-content" style="display: none; background-color: #efefef;"> 
+				
+				
+            <span class="tab-group"> 
+				
+ 
+            <div class="module"> 
+				<div class="infinite-tabs"> 
+		        
+		              <ul class="module-list sponsor-tab-content tab-content" id="sponsor-tab-1"> 
+		              
+ 
+		                <li class="module-item"> 
+		                
+		                	<a href="/li/b2011_12/committees/ctte_h_trnsprt_1/">Committee on Transportation</a> 
+		                
+		                </li> 
+		              
+		              </ul> 
+		        
+		         </div> 
+		     </div> 
+		   </span> 
+		  </div><!-- end portlet --> 
+	      </div><!-- end portlet --> 
+		
+	
+	
+	
+          
+            <!-- <h3>Introduced by</h3> --> 
+				<!-- <div class="portlet ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"> --> 
+				<div class="portlet"> 
+				<div class="portlet-header" style="background-color: #d2d2d2; color: #134f6c; font-weight: bold;">Introduced by</div> 
+				<div class="portlet-content" style="display: none; background-color: #efefef;"> 
+				
+            <span class="tab-group"> 
+			
+ 
+             <div class="module"> 
+				<div class="infinite-tabs"> 
+		        
+		              <ul class="module-list introduce-tab-content tab-content" id="introduce-tab-1"> 
+		              
+		                <li class="module-item"> 
+		                
+		                	<a href="/li/b2011_12/committees/ctte_h_trnsprt_1/">Committee on Transportation</a> 
+		                
+		                </li> 
+		              
+		              </ul> 
+		        
+		         </div> 
+		     </div> 
+		   </span> 
+		   </div><!-- end portlet --> 
+		   </div><!-- end portlet --> 
+		
+	
+  
+	 <!-- <div class="module" moved to single line right of Bill History title>
+	  <h5>Bill History Legend</h5>
+		<div class="bill_history_legend">
+		 <ul>
+			
+         <li><b>AR:</b> Amendment Report</li>
+        
+        
+        <li><b>SN:</b> Supplemental Note</li>
+       
+       
+       <li><b>FN:</b> Fiscal Note</li>
+       
+       
+       
+       <li><b>CCRB:</b> Conference Committee Report Brief</li>
+       
+			<li><b>JPN:</b> Journal Page Number</li>
+			</ul>
+		</div>
+	</div> --> 
+ 
+ 
+    	</div> 
+        <!-- end sidebar --> 
+        
+ 
+        
+        <!-- start full --> 
+        <div id="full"> 
+          
+           
+            
+            <div> 
+ 
+		        <h3 class="bill_history_header">Bill History</h3> 
+		    </div> 
+            <div class="tabs"> 
+              
+              <ul class="tabs-nav"> 
+              
+                <li><a  href="#history-tab-1">1</a></li> 
+                <li><a class="last-tab" href="#history-tab-2">2</a></li> 
+ 
+              </ul> 
+              
+				  
+				  <!-- new legend ds --> 
+				  <span class="bill_history_legend "> 
+				  
+				  <b>AR:</b> Amendment Report
+				  
+					
+					<b>CCRB:</b> Conference Committee Report Brief
+					
+				  <b>JPN:</b> Journal Page Number
+				  </span> 
+				  
+ 
+              <div class="module"> 
+                <table class="bottom"> 
+                  <thead> 
+                    <tr> 
+                      <th>Date</th> 
+					  <th>Chamber</th> 
+                      <th>Status</th> 
+                      
+                      <th title="Amendment Reports">AR</th> 
+                      
+                      
+                      
+                      <th title="CCRB">CCRB</th> 
+                      
+					  <th title="Journal Page No.">JPN</th> 
+                    </tr> 
+                  </thead> 
+                
+                  <tbody class="tab-content-sub" id="history-tab-1"> 
+                    
+                    <tr> 
+                      <td>Fri 01 Jun 2012</td> 
+                      
+					  <td>House</td> 
+                      <td>Approved by Governor on Friday, 01 June 2012
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td></td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Fri 01 Jun 2012</td> 
+                      
+					  <td>House</td> 
+                      <td>Enrolled and presented to Governor on Friday, May 25, 2012
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td></td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Sat 19 May 2012</td> 
+                      
+					  <td>House</td> 
+                      <td>Engrossed on Saturday, 19 May 2012
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>2937</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Sat 19 May 2012</td> 
+                      
+					  <td>House</td> 
+                      <td>Conference Committee Report was adopted; <a href="/li/b2011_12/measures/odt_view/je_20120519120712_288463/"> Yea: 113 Nay: 0</a> 
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>2930</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Sat 19 May 2012</td> 
+                      
+					  <td>House</td> 
+                      <td>Motion to suspend Joint Rule 4 (k) to allow consideration adopted; 
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>2924</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Fri 18 May 2012</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Conference Committee Report was adopted; <a href="/li/b2011_12/measures/odt_view/je_20120518130747_329282/"> Yea: 38 Nay: 0</a> 
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>3228</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Fri 18 May 2012</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Motion to suspend Joint Rule 4 (k) to allow consideration adopted; 
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>3136</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Fri 18 May 2012</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Conference committee report now available
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                          <a class="pdf" href="/li/b2011_12/measures/documents/ccr_2012_hb2175_s_5706.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      <a class="pdf" href="/li/b2011_12/measures/documents/ccrb_hb2175_00_0000.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                      
+                      </td> 
+                      
+		      <td></td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Fri 18 Mar 2011</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Motion to accede adopted; <a href="/li/b2011_12/members/sen_umbarger_dwayne_1/"> Senator Umbarger</a>, <a href="/li/b2011_12/members/sen_marshall_bob_1/"> Senator Marshall</a> and <a href="/li/b2011_12/members/sen_kultala_kelly_1/"> Senator Kultala</a> appointed as  conferees
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>389</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Thu 17 Mar 2011</td> 
+                      
+					  <td>House</td> 
+                      <td>Nonconcurred with amendments; Conference Committee requested; appointed 
+                      
+					      
+ 
+ 
+					      
+							       <a href="/li/b2011_12/members/rep_burgess_mike_1/">Representative Burgess</a>   ,       <a href="/li/b2011_12/members/rep_hayzlett_gary_1/">Representative Hayzlett</a>   and      <a href="/li/b2011_12/members/rep_trimmer_ed_1/">Representative Trimmer</a>    as conferees   
+						    
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>538</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Wed 09 Mar 2011</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Emergency Final Action - Passed as amended; <a href="/li/b2011_12/measures/odt_view/je_20110309163222_438027/"> Yea: 39 Nay: 0</a> 
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>306</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Wed 09 Mar 2011</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Committee of the Whole - Be passed as amended
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>302</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Wed 09 Mar 2011</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Committee of the Whole - Committee Report be adopted
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>302</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Thu 03 Mar 2011</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Committee Report recommending bill be passed as amended by 
+                      
+					      
+							      <a href="/li/b2011_12/committees/ctte_s_trnsprt_1/">Committee on Transportation</a>      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                          <a class="pdf" href="/li/b2011_12/measures/documents/cr_2011_hb2175_s_1721.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>282</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Tue 22 Feb 2011</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Referred to 
+                      
+					      
+							      <a href="/li/b2011_12/committees/ctte_s_trnsprt_1/">Committee on Transportation</a>      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>224</td> 
+                    </tr> 
+                    
+                  </tbody> 
+                
+                  <tbody class="tab-content-sub" id="history-tab-2"> 
+                    
+                    <tr> 
+                      <td>Mon 21 Feb 2011</td> 
+                      
+					  <td>Senate</td> 
+                      <td>Received and Introduced
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>218</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Mon 21 Feb 2011</td> 
+                      
+					  <td>House</td> 
+                      <td>Final Action - Passed;  <a href="/li/b2011_12/measures/odt_view/je_20110221113808_575295/"> Yea: 120 Nay: 0</a> 
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>303</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Fri 18 Feb 2011</td> 
+                      
+					  <td>House</td> 
+                      <td>Committee of the Whole - Be passed
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>288</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Wed 16 Feb 2011</td> 
+                      
+					  <td>House</td> 
+                      <td>Committee Report recommending bill be passed by 
+                      
+					      
+							      <a href="/li/b2011_12/committees/ctte_h_govt_effcncy_fisc_ovst_1/">Committee on Government Efficiency</a>      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                          <a class="pdf" href="/li/b2011_12/measures/documents/cr_2011_hb2175_h_1340.pdf" title="Download PDF" target="_blank"><img src="/li/m/images/pdf.png" alt="Download PDF" /></a> 
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>268</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Tue 08 Feb 2011</td> 
+                      
+					  <td>House</td> 
+                      <td>Referred to 
+                      
+					      
+							      <a href="/li/b2011_12/committees/ctte_h_govt_effcncy_fisc_ovst_1/">Committee on Government Efficiency</a>      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>192</td> 
+                    </tr> 
+                    
+                    <tr> 
+                      <td>Mon 07 Feb 2011</td> 
+                      
+					  <td>House</td> 
+                      <td>Introduced
+                      
+					      
+ 
+ 
+					      
+ 
+						    
+                    
+                    
+ 
+					  </td> 
+                      
+                      <td class="doc_icons"> 
+                      
+                          
+                      
+                      </td> 
+                      
+                      
+                      
+                      <td class="doc_icons"> 
+                      
+                      </td> 
+                      
+		      <td>170</td> 
+                    </tr> 
+                    
+                  </tbody> 
+                
+                </table> 
+              </div> 
+            </div> 
+            
+          
+ 
+ 
+        <div class="rev_number"> 
+          2012. Powered by KLISS. Rendered: 2012-08-17T10:57:08. Head Rev No: 285145
+        </div> 
+        </div> 
+        <!-- end full --> 
+        
+ 
+      
+	  </div> 
+	  <!-- end main content--> 
+	
+ 
+	</div> 
+	<!-- end wrapper --> 
+	
+ 
+</div> 
+<!-- end container --> 
+ 
+	
+ 	<!-- start footer --> 
+	<div id="footer"> 
+		<div id="footer-content"><!-- start footer content--> 
+			<span class="push">&nbsp;</span> 
+				<span class="images"> 
+					<a href="http://skyways.lib.ks.us/government/las/index.html"><img src="/li/m/images/ks_leg_contact.png" alt="KS Legislative Contact"></img></a> 
+					<a href="http://www.kshs.org/portal_capitol"><img src="/li/m/images/visit_the_capitol.png" alt="Visit the Capitol"></img></a> 
+					<a href="https://governor.ks.gov/"><img src="/li/m/images/office_of_govenor.png" alt="Office of the Govenor"></img></a> 
+					<a href="/li/m/pdf/how_bill_law.pdf" target="_blank"><img src="/li/m/images/abcs.png" alt="ABC's of the KS Legislature"></img></a> 
+					<!-- <a href="#"><img src="/li/m/images/badges.png"></img></a> --> 
+				</span> 
+			<div class="text"><span class="footerleft">Kansas State Capitol  -  300 SW 10th St. -  Topeka, Kansas 66612</span> 
+			<span class="footerright"> 
+			<a href="http://www.kansas.gov/">Kansas.gov</a> |
+			<a href="http://www.kansas.gov/about/portal_policies.html">Portal Policies</a> |
+			<a href="http://www.kansas.gov/help_center/index.html">Help Center</a> 
+			<!-- <a href="http://www.kansas.gov/help_center/survey_instructions.html">Survey</a> |  --> 
+		</div><!-- end footer content--> 
+	 </div> 
+	 <!-- end footer --> 
+	 
+ 
+ 
+ 
+</body> 
+</html> 
